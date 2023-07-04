@@ -36,10 +36,14 @@ Start the server:
 The server should now be running at http://localhost:8000.
 
 API Endpoints:-
-  GET /products - Get a list of all products
-  POST /products - Create a new product entry
-  DELETE /products/:id - Delete a product by ID
-  PUT /products/:id?number=<quantity> - Update the quantity of a product
+  GET /products - Get a list of all products.
+  
+  POST /products - Create a new product entry.
+  
+  DELETE /products/:id - Delete a product by ID.
+  
+  PUT /products/:id?number=<quantity> - Update the quantity of a product.
+  
   
 License
 This project is licensed under the MIT License.
