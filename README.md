@@ -30,6 +30,10 @@ Install the dependencies:
 
     npm install
 
+To Create Build :
+            
+    tsc
+
 Usage
 Start the server:
 
