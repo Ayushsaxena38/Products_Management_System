@@ -7,7 +7,7 @@ import Products, { IProduct } from '../models/products';
 // Controller action for getting all products list/entry
 export const getProducts = async (req: Request, res: Response) => {
   try {
-    const products: IProduct[] = await Products.find({}).select('-_id');
+    const products: IProduct[] = await Products.find({}).select(['-_id','-__v']);
     if (products.length === 0) {
       return res.status(200).json({
         message: "Zero Products"
